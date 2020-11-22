@@ -1,0 +1,66 @@
+{
+    "bot_setup": {
+        "prefix": "-",
+        "token": "",
+        "copyright": "© 2020 Meto",
+        "bot_status": "online",
+        "bot_game_type": "STREAMING",
+        "bot_game": "Meto",
+        "main_embed_color": "#F0FF00",
+        "debug_mode": true
+    },
+
+    "module_toggles": {
+        "welcome_leave_channel":  true,
+        "join_role": true,
+        "logs": true,
+        "moderation_commands": true,
+        "mod_logs": true,
+        "fun_commands": true,
+        "utility_commands": true,
+        "ticket_system": true,
+        "filter_lang_links": true,
+        "member_count_channel": false
+    },
+
+    "channel_setup": {
+        "welcome_channel": "712956252216360991",
+        "general_logs_channel": "712326073995493396",
+	"logger_delete_edit": "712326164101988364",
+        "kick_logs_channel": "712326215578419251",
+        "ban_logs_channel": "712326215578419251",
+        "warning_logs_channel": "712326215578419251",
+        "mute_logs_channel": "712326215578419251",
+        "command_logs_channel": "",
+     "ticket_category": "712964238515372102"
+    },
+
+    "join_roles": {
+        "role": "712976142612693042"
+    },
+
+    "ticket_system": {
+        "support_role": "712957462818455614",  
+        "auto_reply": true,
+        "auto_reply_message": "Je ticket is aangemaakt. Wij gaan je zo snel mogelijk helpen."
+    },
+
+    "moderation_module": {
+        "mute_role": "Muted",
+        "DM_kicked_user": true,
+        "DM_banned_user": true,
+        "DM_muted_user": true,
+        "DM_warned_user": true
+    },
+
+    "filter_module": {
+        "language_bypass_role": "",
+        "link_bypass_role": "",
+        "filter_links": ["bing.com", "discordapp.com", "discord.gg"],
+        "filter_words": ["fuck", "kanker", "hoer", "slet", "hoertje", "sletje", "kut", "tyfus"]
+    },
+
+    "member_count_module": {
+        "member_count_channel": "705158250659708939"
+    }
+}
