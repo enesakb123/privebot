@@ -4,7 +4,7 @@ const botconfig = require("../../botconfig.json");
 
 module.exports.run = async (bot, message, args) => {
     message.delete();
-    const channel = bot.channels.find('name', 'bot-commands');
+    const channel = bot.channels.find('name', '🎫support');
 if (message.channel != channel) return message.channel.send('Gebruik Deze Commando In Het ' + channel + ' Kanaal! ').then(msg => message.delete(2500));;
          
     if (!message.guild.roles.find(role => role.id === botconfig["ticket_system"].support_role)) return message.channel.send(`Rol kon niet worden gemaakt.`).then(msg => msg.delete(15000));
